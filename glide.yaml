@@ -1,0 +1,20 @@
+package: github.com/Ryan-Hancock/go-vue-leaderboard
+import:
+- package: github.com/dgrijalva/jwt-go
+- package: github.com/gin-contrib/cors
+- package: github.com/gin-gonic/contrib
+  subpackages:
+  - static
+- package: github.com/gin-gonic/gin
+- package: github.com/gorilla/sessions
+- package: github.com/hashicorp/consul
+  subpackages:
+  - api
+- package: github.com/jinzhu/gorm
+  subpackages:
+  - dialects/mysql
+- package: github.com/spf13/viper
+- package: golang.org/x/oauth2
+- package: google.golang.org/api
+  subpackages:
+  - oauth2/v2
