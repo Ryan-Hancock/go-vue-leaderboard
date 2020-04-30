@@ -13,7 +13,7 @@
   "dependencies": {
     "@tdewolff/auth": "^1.0.8",
     "axios": "^0.18.0",
-    "jquery": ">=3.4.0",
+    "jquery": ">=3.5.0",
     "jwt-decode": "^2.2.0",
     "lodash": ">=4.17.11",
     "semantic-ui-css": "^2.2.12",
